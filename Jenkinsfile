@@ -3,10 +3,10 @@ pipeline {
  stages {
   stage('Main branch Deploy Code') {
   when {
-     branch 'main'
+     branch 'dev'
      }
      steps {
-     echo "Building"
+     echo "Building hot"
      }
       }
       }
